@@ -70,7 +70,7 @@ public class TopicServiceTest {
         Topic t1 = new Topic();
         t1.setName("Topic");
         t1.setDescription("Description");
-        t1.setStatus(toOpen);
+        t1.setStatus(toOopen);
 
         assertThat(t1, samePropertyValuesAs(topicService.add(t1)));
     }
